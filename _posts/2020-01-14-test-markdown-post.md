@@ -1,9 +1,9 @@
 ---
 toc: true
 layout: post
-description: A minimal example of using markdown with fastpages.
+description: A post exemplifying the greatness of Saavan. 
 categories: [markdown]
-title: An Example Markdown Post
+title: Saavan Gade Post
 ---
 # Example Markdown Post
 
