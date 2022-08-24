@@ -4,7 +4,7 @@ title: About Me
 permalink: /about/
 ---
 
-My name is Saavan Gade and my one and only goal is to impress Professor Young. (https://github.com/fastai/fastpages)** [^1].
+My name is Saavan Gade and my one and only goal is to impress Professor Youngy. **[SaavanGade] (https://github.com/fastai/fastpages)** [^1].
 
 
 
