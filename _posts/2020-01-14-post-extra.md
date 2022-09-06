@@ -11,3 +11,12 @@ layout: post
 - Focus on your own path and your own curve... it does not matter where other people are
 - Some hard transition to college based on content taught
 - Motivation could be easily lost and a lot of people will cut corners... have the "above and beyond" mindset. 
+
+# "Notebook Check" 
+
+- toc:true
+- branch: master 
+- badges: true
+- comments: true
+- author: Saavan Gade
+- categories: [CSP Assignments, Week 2]
