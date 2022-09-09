@@ -15,15 +15,37 @@
         ,"post1": {
             "title": "Stats",
             "content": "AP STATISTICS AS OF 8/28/2022 . I have learned about Standard Deviation and other variables that impact it. . | Learned differences from categorical compared to Quantatative Variables. . | Discovered the importances of different types of graphs and charts. . | How to properly describe graphs and the variables that coincide within them. . | . AP Stats has been a decent class with not too much difficulty. .",
-            "url": "https://saavangade.github.io/Saavan/2022/09/05/Stats.html",
-            "relUrl": "/2022/09/05/Stats.html",
-            "date": " • Sep 5, 2022"
+            "url": "https://saavangade.github.io/Saavan/2022/09/08/Stats.html",
+            "relUrl": "/2022/09/08/Stats.html",
+            "date": " • Sep 8, 2022"
         }
         
     
   
     
         ,"post2": {
+            "title": "Mi",
+            "content": "HONORS MEDICAL INTERVENTION AS OF 8/28/2022 . The class has been filled with interesting games to help us learn about PCR. . | Have gotten some instruction on things like DNA and antibodies. . | Have been asked to identify different sicknesses. . | . So far HONORS MI has been a fun and exciting class and I am happy with the way it has been going. .",
+            "url": "https://saavangade.github.io/Saavan/2022/09/08/MI.html",
+            "relUrl": "/2022/09/08/MI.html",
+            "date": " • Sep 8, 2022"
+        }
+        
+    
+  
+    
+        ,"post3": {
+            "title": "Government",
+            "content": "AP GOVERNMENT AS OF 8/28/2022 . Have taken tons of notes on different government parties and ideologies. . | Learned the thinkings of conservatives and Liberals. . | Have discovered biases within the Media and how it can impact audience. . | Learned about certain current events such as inflation. . | . AP GOV is a fun class that is not too bad as of now. .",
+            "url": "https://saavangade.github.io/Saavan/2022/09/08/Government.html",
+            "relUrl": "/2022/09/08/Government.html",
+            "date": " • Sep 8, 2022"
+        }
+        
+    
+  
+    
+        ,"post4": {
             "title": "NBA Quiz 2",
             "content": "q1 = &quot;&quot;&quot;Which major player requested a trade in the 2022 NBA offseason but never actually got traded? a. Jayson Tatum b. James Harden c. Kevin Durant d. Lebron James&quot;&quot;&quot; q2 = &quot;&quot;&quot;Which team won the west in the year 2021? a. Phoneix Suns b. Milwuake Bucks c. LA Lakers d. Brooklyn Nets&quot;&quot;&quot; q3 = &quot;&quot;&quot;Who was the back to back mvp in the years of 2021 and 2022? a. Giannis Antetokounmpo b. Nikola Jokic c. Lebron James d. Kevin Durant&quot;&quot;&quot; q4 = &quot;&quot;&quot;Which NBA player led the league in scoring in the year 2022? a. Nikola Jokic b. James Harden c. Bradley Beal d. Joel Embiid&quot;&quot;&quot; q5 = &quot;&quot;&quot;What big time player got traded to the sixers in the middle of the 2022 season? a. Tobias Harris b. Joel Embiid c. Kevin Durant d. James Harden&quot;&quot;&quot; questions = {q1: &quot;c&quot;, q2: &quot;a&quot;, q3: &quot;b&quot;, q4: &quot;d&quot;, q5: &quot;d&quot;,} name = input(&quot;Enter your name: &quot;) print(name, &quot;how many can you get right?&quot;) score = 0 for i in questions: print(i) ans = input(&quot;Choose the answer which you think is right.&quot;) if ans == questions[i]: print(&quot;correct!&quot;) score = score+1 else: print(&quot;sorry, that was incorrect.&quot;) print(&quot;Your final score is &quot;,score) . how many can you get right? Which major player requested a trade in the 2022 NBA offseason but never actually got traded? a. Jayson Tatum b. James Harden c. Kevin Durant d. Lebron James correct! Which team won the west in the year 2021? a. Phoneix Suns b. Milwuake Bucks c. LA Lakers d. Brooklyn Nets correct! Who was the back to back mvp in the years of 2021 and 2022? a. Giannis Antetokounmpo b. Nikola Jokic c. Lebron James d. Kevin Durant correct! Which NBA player led the league in scoring in the year 2022? a. Nikola Jokic b. James Harden c. Bradley Beal d. Joel Embiid sorry, that was incorrect. What big time player got traded to the sixers in the middle of the 2022 season? a. Tobias Harris b. Joel Embiid c. Kevin Durant d. James Harden correct! Your final score is 4 . &quot;Notebook Check&quot; . toc:true | branch: master | badges: true | comments: true | author: Saavan Gade | categories: [CSP Assignments, Week 1] | .",
             "url": "https://saavangade.github.io/Saavan/2022/09/05/Quiz2.html",
@@ -34,33 +56,11 @@
     
   
     
-        ,"post3": {
-            "title": "Mi",
-            "content": "HONORS MEDICAL INTERVENTION AS OF 8/28/2022 . The class has been filled with interesting games to help us learn about PCR. . | Have gotten some instruction on things like DNA and antibodies. . | Have been asked to identify different sicknesses. . | . So far HONORS MI has been a fun and exciting class and I am happy with the way it has been going. .",
-            "url": "https://saavangade.github.io/Saavan/2022/09/05/MI.html",
-            "relUrl": "/2022/09/05/MI.html",
-            "date": " • Sep 5, 2022"
-        }
-        
-    
-  
-    
-        ,"post4": {
+        ,"post5": {
             "title": "Loop Hack",
             "content": "InfoDb = [] # InfoDB is a data structure with expected Keys and Values # Append to List a Dictionary of key/values related to a person and cars InfoDb.append({ &quot;FirstName&quot;: &quot;Saavan&quot;, &quot;LastName&quot;: &quot;Gade&quot;, &quot;DOB&quot;: &quot;July 14&quot;, &quot;Residence&quot;: &quot;San Diego&quot;, &quot;Email&quot;: &quot;savvy05@gmail.com&quot;, &quot;Owns_Cars&quot;: [&quot;2015-BMW&quot;] }) . def print_data(d_rec): print(d_rec[&quot;FirstName&quot;], d_rec[&quot;LastName&quot;]) # using comma puts space between values print(&quot; t&quot;, &quot;Residence:&quot;, d_rec[&quot;Residence&quot;]) # t is a tab indent print(&quot; t&quot;, &quot;Birth Day:&quot;, d_rec[&quot;DOB&quot;]) print(&quot; t&quot;, &quot;Cars: &quot;, end=&quot;&quot;) # end=&quot;&quot; make sure no return occurs print(&quot;, &quot;.join(d_rec[&quot;Owns_Cars&quot;])) # join allows printing a string list with separator print() # for loop algorithm iterates on length of InfoDb def for_loop(): print(&quot;For loop output n&quot;) for record in InfoDb: print_data(record) for_loop() . For loop output Saavan Gade Residence: San Diego Birth Day: July 14 Cars: 2015-BMW . def while_loop(): print(&quot;While loop output n&quot;) i = 0 while i &lt; len(InfoDb): record = InfoDb[i] print_data(record) i += 1 return while_loop() . While loop output Saavan Gade Residence: San Diego Birth Day: July 14 Cars: 2015-BMW . def recursive_loop(i): if i &lt; len(InfoDb): record = InfoDb[i] print_data(record) recursive_loop(i + 1) return print(&quot;Recursive loop output n&quot;) recursive_loop(0) . Recursive loop output Saavan Gade Residence: San Diego Birth Day: July 14 Cars: 2015-BMW . &quot;Notebook Check&quot; . toc:true | branch: master | badges: true | comments: true | author: Saavan Gade | categories: [CSP Assignments, Week 3] | .",
             "url": "https://saavangade.github.io/Saavan/2022/09/05/Loop.html",
             "relUrl": "/2022/09/05/Loop.html",
-            "date": " • Sep 5, 2022"
-        }
-        
-    
-  
-    
-        ,"post5": {
-            "title": "Government",
-            "content": "AP GOVERNMENT AS OF 8/28/2022 . Have taken tons of notes on different government parties and ideologies. . | Learned the thinkings of conservatives and Liberals. . | Have discovered biases within the Media and how it can impact audience. . | Learned about certain current events such as inflation. . | . AP GOV is a fun class that is not too bad as of now. .",
-            "url": "https://saavangade.github.io/Saavan/2022/09/05/Government.html",
-            "relUrl": "/2022/09/05/Government.html",
             "date": " • Sep 5, 2022"
         }
         
