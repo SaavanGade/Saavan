@@ -303,15 +303,18 @@ tests_per_1m_population 2,990,303
 <span class="c1"># Begin Rapid API Code</span>
 <span class="kn">import</span> <span class="nn">requests</span>
 
-<span class="n">url</span> <span class="o">=</span> <span class="s2">"https://coinranking1.p.rapidapi.com/coins"</span>
-<span class="n">querystring</span> <span class="o">=</span> <span class="p">{</span><span class="s2">"referenceCurrencyUuid"</span><span class="p">:</span><span class="s2">"yhjMzLPhuIDl"</span><span class="p">,</span><span class="s2">"timePeriod"</span><span class="p">:</span><span class="s2">"24h"</span><span class="p">,</span><span class="s2">"tiers[0]"</span><span class="p">:</span><span class="s2">"1"</span><span class="p">,</span><span class="s2">"orderBy"</span><span class="p">:</span><span class="s2">"marketCap"</span><span class="p">,</span><span class="s2">"orderDirection"</span><span class="p">:</span><span class="s2">"desc"</span><span class="p">,</span><span class="s2">"limit"</span><span class="p">:</span><span class="s2">"50"</span><span class="p">,</span><span class="s2">"offset"</span><span class="p">:</span><span class="s2">"0"</span><span class="p">}</span>
+<span class="n">url</span> <span class="o">=</span> <span class="s2">"https://nba-schedule.p.rapidapi.com/schedule"</span>
+
+<span class="n">querystring</span> <span class="o">=</span> <span class="p">{</span><span class="s2">"team"</span><span class="p">:</span><span class="s2">"GSW"</span><span class="p">,</span><span class="s2">"date"</span><span class="p">:</span><span class="s2">"31-01-2022"</span><span class="p">}</span>
+
 <span class="n">headers</span> <span class="o">=</span> <span class="p">{</span>
-	<span class="s2">"X-RapidAPI-Key"</span><span class="p">:</span> <span class="s2">"jcmbea0fa2ff5msh7f14bf69be38ca6p175482jsn6c4988114560"</span><span class="p">,</span>  <span class="c1"># place your key here</span>
-	<span class="s2">"X-RapidAPI-Host"</span><span class="p">:</span> <span class="s2">"coinranking1.p.rapidapi.com"</span>
+	<span class="s2">"X-RapidAPI-Key"</span><span class="p">:</span> <span class="s2">"4f0f5ee0b6msh1bcb7e2bb792a18p18c6b0jsn03bc958312b3"</span><span class="p">,</span>
+	<span class="s2">"X-RapidAPI-Host"</span><span class="p">:</span> <span class="s2">"nba-schedule.p.rapidapi.com"</span>
 <span class="p">}</span>
 
 <span class="n">response</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">request</span><span class="p">(</span><span class="s2">"GET"</span><span class="p">,</span> <span class="n">url</span><span class="p">,</span> <span class="n">headers</span><span class="o">=</span><span class="n">headers</span><span class="p">,</span> <span class="n">params</span><span class="o">=</span><span class="n">querystring</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">response</span><span class="o">.</span><span class="n">text</span><span class="p">)</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="n">response</span><span class="o">.</span><span class="n">json</span><span class="p">())</span>
 <span class="c1"># End Rapid API Code</span>
 <span class="n">json</span> <span class="o">=</span> <span class="n">response</span><span class="o">.</span><span class="n">json</span><span class="p">()</span>  <span class="c1"># convert response to python json object</span>
 
@@ -331,7 +334,7 @@ tests_per_1m_population 2,990,303
 <div class="output_area">
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>{"message":"You are not subscribed to this API."}
+<pre>[{'gameDate': '1/31/2022 12:00:00 AM', 'games': [{'gameId': '0022100764', 'gameCode': '20220131/GSWHOU', 'gameStatus': 3, 'gameStatusText': 'Final', 'gameSequence': 7, 'gameDateEst': '2022-01-31T00:00:00Z', 'gameTimeEst': '1900-01-01T20:00:00Z', 'gameDateTimeEst': '2022-01-31T20:00:00Z', 'gameDateUTC': '2022-01-31T05:00:00Z', 'gameTimeUTC': '1900-01-02T01:00:00Z', 'gameDateTimeUTC': '2022-02-01T01:00:00Z', 'awayTeamTime': '2022-01-31T17:00:00Z', 'homeTeamTime': '2022-01-31T19:00:00Z', 'day': 'Mon', 'monthNum': 1, 'weekNumber': 16, 'weekName': 'Week 16', 'ifNecessary': False, 'seriesGameNumber': '', 'seriesText': '', 'arenaName': 'Toyota Center', 'arenaState': 'TX', 'arenaCity': 'Houston', 'postponedStatus': 'A', 'branchLink': 'https://app.link.nba.com/ZThbyrgCXib', 'broadcasters': {'nationalTvBroadcasters': [], 'nationalRadioBroadcasters': [], 'homeTvBroadcasters': [], 'homeRadioBroadcasters': [], 'awayTvBroadcasters': [], 'awayRadioBroadcasters': [], 'intlRadioBroadcasters': [], 'intlTvBroadcasters': []}, 'homeTeam': {'teamId': 1610612745, 'teamName': 'Rockets', 'teamCity': 'Houston', 'teamTricode': 'HOU', 'teamSlug': 'rockets', 'wins': 14, 'losses': 36, 'score': 108, 'seed': 0}, 'awayTeam': {'teamId': 1610612744, 'teamName': 'Warriors', 'teamCity': 'Golden State', 'teamTricode': 'GSW', 'teamSlug': 'warriors', 'wins': 38, 'losses': 13, 'score': 122, 'seed': 0}, 'pointsLeaders': [{'personId': 201939, 'firstName': 'Stephen', 'lastName': 'Curry', 'teamId': 1610612744, 'teamCity': 'Golden State', 'teamName': 'Warriors', 'teamTricode': 'GSW', 'points': 40}]}]}]
 </pre>
 </div>
 </div>
