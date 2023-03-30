@@ -15,9 +15,9 @@
         ,"post1": {
             "title": "Stats",
             "content": "AP STATISTICS AS OF 8/28/2022 . I have learned about Standard Deviation and other variables that impact it. . | Learned differences from categorical compared to Quantatative Variables. . | Discovered the importances of different types of graphs and charts. . | How to properly describe graphs and the variables that coincide within them. . | . AP Stats has been a decent class with not too much difficulty. .",
-            "url": "https://saavangade.github.io/Saavan/2023/03/28/Stats.html",
-            "relUrl": "/2023/03/28/Stats.html",
-            "date": " • Mar 28, 2023"
+            "url": "https://saavangade.github.io/Saavan/2023/03/29/Stats.html",
+            "relUrl": "/2023/03/29/Stats.html",
+            "date": " • Mar 29, 2023"
         }
         
     
@@ -26,9 +26,9 @@
         ,"post2": {
             "title": "Mi",
             "content": "HONORS MEDICAL INTERVENTION AS OF 8/28/2022 . The class has been filled with interesting games to help us learn about PCR. . | Have gotten some instruction on things like DNA and antibodies. . | Have been asked to identify different sicknesses. . | . So far HONORS MI has been a fun and exciting class and I am happy with the way it has been going. .",
-            "url": "https://saavangade.github.io/Saavan/2023/03/28/MI.html",
-            "relUrl": "/2023/03/28/MI.html",
-            "date": " • Mar 28, 2023"
+            "url": "https://saavangade.github.io/Saavan/2023/03/29/MI.html",
+            "relUrl": "/2023/03/29/MI.html",
+            "date": " • Mar 29, 2023"
         }
         
     
@@ -37,9 +37,9 @@
         ,"post3": {
             "title": "Government",
             "content": "AP GOVERNMENT AS OF 8/28/2022 . Have taken tons of notes on different government parties and ideologies. . | Learned the thinkings of conservatives and Liberals. . | Have discovered biases within the Media and how it can impact audience. . | Learned about certain current events such as inflation. . | . AP GOV is a fun class that is not too bad as of now. .",
-            "url": "https://saavangade.github.io/Saavan/2023/03/28/Government.html",
-            "relUrl": "/2023/03/28/Government.html",
-            "date": " • Mar 28, 2023"
+            "url": "https://saavangade.github.io/Saavan/2023/03/29/Government.html",
+            "relUrl": "/2023/03/29/Government.html",
+            "date": " • Mar 29, 2023"
         }
         
     
@@ -48,9 +48,9 @@
         ,"post4": {
             "title": "Extra Credit",
             "content": "To-Do task list . tasks = {} def add_task(task): tasks[task] = False def complete_task(task): tasks[task] = True def list_tasks(): for task, completed in tasks.items(): print(f&quot;{task}: {completed}&quot;) while True: action = input(&quot;What would you like to do? &quot;) if action == &quot;add&quot;: task = input(&quot;Enter the task to add: &quot;) add_task(task) elif action == &quot;complete&quot;: task = input(&quot;Enter the task to complete: &quot;) complete_task(task) elif action == &quot;list&quot;: list_tasks() elif action == &quot;quit&quot;: break else: print(&quot;Invalid action&quot;) print(tasks) . {&#39;eat&#39;: False, &#39;lunch&#39;: True} . This code is a simple task management program that allows the user to add tasks, mark tasks as complete, and list all the tasks. . The program begins by defining an empty dictionary called tasks. The dictionary will store the tasks as keys and a boolean value indicating whether the task has been completed or not. . The program then defines three functions: . add_task: This function adds a task to the dictionary with a value of False (indicating it has not been completed yet). complete_task: This function sets the value of a given task to True (indicating it has been completed). list_tasks: This function iterates through the tasks in the dictionary and prints the task name and its completion status. The program then enters a while loop that prompts the user for an action (either &quot;add&quot;, &quot;complete&quot;, &quot;list&quot;, or &quot;quit&quot;). If the action is &quot;add&quot;, the program prompts the user for a task and adds it to the dictionary using the add_task function. If the action is &quot;complete&quot;, the program prompts the user for a task and marks it as complete using the complete_task function. If the action is &quot;list&quot;, the program lists all the tasks using the list_tasks function. If the action is &quot;quit&quot;, the program breaks out of the while loop and ends. If the user enters an invalid action, the program prints an error message. . Finally, after the while loop ends, the program prints the dictionary of tasks. . Rock Paper Scissors game . import random choices = [&quot;rock&quot;, &quot;paper&quot;, &quot;scissors&quot;] def play_game(): # Get the user&#39;s choice user_choice = input(&quot;Enter your choice (rock/paper/scissors): &quot;) # Get the computer&#39;s choice computer_choice = random.choice(choices) # Determine the winner if user_choice == computer_choice: result = &quot;Tie&quot; elif user_choice == &quot;rock&quot; and computer_choice == &quot;scissors&quot;: result = &quot;You win!&quot; elif user_choice == &quot;paper&quot; and computer_choice == &quot;rock&quot;: result = &quot;You win!&quot; elif user_choice == &quot;scissors&quot; and computer_choice == &quot;paper&quot;: result = &quot;You win!&quot; else: result = &quot;Computer wins&quot; # Print the results print(f&quot;You chose {user_choice} and the computer chose {computer_choice}&quot;) print(result) # Play the game play_game() . You chose paper and the computer chose rock You win! . This code is a simple Rock-Paper-Scissors game that allows the user to play against the computer. . The program begins by importing the random module and defining a list of choices. It then defines the play_game function, which prompts the user for their choice and generates a random choice for the computer using the random.choice function. . The program then determines the winner of the game by comparing the user&#39;s choice and the computer&#39;s choice. If the user&#39;s choice is the same as the computer&#39;s choice, it&#39;s a tie. Otherwise, it checks if the user&#39;s choice wins against the computer&#39;s choice using a series of if statements. If none of the conditions are met, the result is &quot;Computer wins&quot;. . The program then prints the results of the game, including the user&#39;s choice and the computer&#39;s choice. . To play the game, you can run this code in a Python interpreter or save it to a file and run it with python filename.py. The program will prompt you to enter your choice, and then print the results of the game. . This is a simple mad libs game . def mad_libs(): noun = input(&quot;Enter a noun: &quot;) verb = input(&quot;Enter a verb: &quot;) adjective = input(&quot;Enter an adjective: &quot;) adverb = input(&quot;Enter an adverb: &quot;) print(f&quot;The {adjective} {noun} likes to {verb} {adverb}.&quot;) mad_libs() . The fast saavan likes to run a lot. . This code is a simple Mad Libs program that prompts the user for a noun, verb, adjective, and adverb, and then uses those words to create and print a sentence. . The program begins by defining the mad_libs function, which prompts the user for a noun, verb, adjective, and adverb and stores them in variables. It then uses these variables to create a sentence using string formatting, and prints the sentence to the screen. . To play Mad Libs, you can run this code in a Python interpreter or save it to a file and run it with python filename.py. The program will prompt you to enter the words, and then print the generated sentence. You can customize the program by adding more prompts for different parts of speech and incorporating them into the sentence. You can also add more sentences or create a function to generate multiple Mad Libs sentences. Let me know if you have any specific questions about how to customize the program! .",
-            "url": "https://saavangade.github.io/Saavan/2023/03/28/ExtraCredit.html",
-            "relUrl": "/2023/03/28/ExtraCredit.html",
-            "date": " • Mar 28, 2023"
+            "url": "https://saavangade.github.io/Saavan/2023/03/29/ExtraCredit.html",
+            "relUrl": "/2023/03/29/ExtraCredit.html",
+            "date": " • Mar 29, 2023"
         }
         
     
